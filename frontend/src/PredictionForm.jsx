@@ -12,7 +12,7 @@ function PredictionForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = axios.post("https://hospital-readmission-api.onrender.com/predict",{
+    const response = axios.post("https://hospital-api-659w.onrender.com",{
       age:Number(age),
       num_procedures:Number(procedures),
       num_medications:Number(medications),
