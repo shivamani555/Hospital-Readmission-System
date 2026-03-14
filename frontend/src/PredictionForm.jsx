@@ -12,7 +12,7 @@ function PredictionForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await axios.post("http://127.0.0.1:8000/predict",{
+    const response = await axios.post("https://hospital-api-659w.onrender.com",{
       age:Number(age),
       num_procedures:Number(procedures),
       num_medications:Number(medications),
