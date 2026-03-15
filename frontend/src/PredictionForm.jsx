@@ -18,7 +18,7 @@ function PredictionForm() {
 
     try {
       const response = await axios.post(
-        "https://hospital-readmission-api.onrender.com/predict",
+        "https://hospital-api-659w.onrender.com/",
         {
           age: Number(age),
           num_procedures: Number(procedures),
