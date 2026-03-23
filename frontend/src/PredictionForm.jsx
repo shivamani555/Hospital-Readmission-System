@@ -30,7 +30,7 @@ function PredictionForm() {
       setResult(response.data.prediction);
     } catch (err) {
       console.error(err);
-      setError("Backend is not responding. Please check your Render API.");
+      setError("Backend is not responding. Please check your API.");
     } finally {
       setLoading(false);
     }
